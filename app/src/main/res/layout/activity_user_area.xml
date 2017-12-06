@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="#FFFFFF"
+    tools:context="com.example.dan.wifi_login.UserAreaActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/wifilogos" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/bsharing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:drawableLeft="@drawable/wifisharing"
+                android:text="sharing" />
+
+            <Button
+                android:id="@+id/buser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:drawableLeft="@drawable/wifiuser"
+
+                android:text="user" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/TesttextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:gravity="center" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
